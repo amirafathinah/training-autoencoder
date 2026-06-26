@@ -13,15 +13,10 @@ Project ini merupakan implementasi **Autoencoder** menggunakan framework **PyTor
 ---
 
 # 1. Requirements
-
 ## Python
-
 - Python 3.12
-
 ## Library
-
 Project ini menggunakan beberapa library berikut.
-
 - torch
 - torchvision
 - matplotlib
@@ -30,12 +25,9 @@ Project ini menggunakan beberapa library berikut.
 - os
 
 Install library menggunakan perintah berikut.
-
 ```bash
 pip install torch torchvision matplotlib numpy
 ```
-
----
 
 # 2. Cara Menjalankan Training di Kaggle
 
@@ -71,7 +63,6 @@ autoencoder_fashion_mnist_latent8.pth
 autoencoder_fashion_mnist_latent32.pth
 ```
 
----
 
 # 3. Cara Menjalankan Rekonstruksi dari Terminal
 
@@ -93,7 +84,6 @@ Program akan melakukan proses berikut.
 - Melakukan proses rekonstruksi citra.
 - Menyimpan gambar asli, hasil rekonstruksi, dan gambar perbandingan ke folder `outputs`.
 
----
 
 # 4. Contoh Perintah Terminal
 
@@ -121,7 +111,6 @@ Parameter yang digunakan:
 - `--latent_dim` : ukuran latent dimension yang sesuai dengan model.
 - `--index` : indeks gambar Fashion-MNIST yang akan direkonstruksi.
 
----
 
 # 5. Daftar File Output
 
@@ -183,7 +172,6 @@ AmiraFathinah_452024618075_Autoencoder
 └── README.md
 ```
 
----
 
 # Hasil Eksperimen
 
