@@ -1,12 +1,13 @@
-# Autoencoder Fashion-MNIST
+# Training di Kaggle dan Rekonstruksi Citra Fashion-MNIST melalui Decoder 
 
-**Nama:** Amira Fathinah  
-**NIM:** 452024618075
+## Identitas Mahasiswa
+* **Nama Lengkap:** Amira Fathinah
+* **NIM:** 452024618075
+* **Program Studi:** Teknik Informatika C1
+* **Semester:** 5
+* **Mata Kuliah:** Pembelajaran Mesin 2
 
----
-
-# Deskripsi
-
+## Deskripsi
 Project ini merupakan implementasi **Autoencoder** menggunakan framework **PyTorch** untuk melakukan kompresi dan rekonstruksi citra pada dataset **Fashion-MNIST**. Model dilatih menggunakan tiga variasi ukuran **latent dimension**, yaitu **2**, **8**, dan **32**. Setelah proses training selesai, model disimpan dalam format `.pth` dan digunakan kembali untuk melakukan proses rekonstruksi citra melalui terminal menggunakan file `reconstruct.py`.
 
 ---
